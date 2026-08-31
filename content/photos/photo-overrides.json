@@ -1,0 +1,93 @@
+{
+  "IMG_4034.jpeg": {
+    "id": "sunset-water",
+    "webFilename": "sunset-water.jpg",
+    "title": "落日入水",
+    "alt": "落日照在海面上，两个人站在浅水中",
+    "location": "未标记",
+    "theme": "water",
+    "uploadedAt": "2026-08-13T00:00:00+08:00"
+  },
+  "IMG_4035.jpeg": {
+    "id": "sunset-portrait",
+    "webFilename": "sunset-portrait.jpg",
+    "title": "回到岸边",
+    "alt": "夕阳下海水中的人物剪影",
+    "location": "未标记",
+    "theme": "water",
+    "uploadedAt": "2026-08-13T00:00:00+08:00"
+  },
+  "R0001094.JPG": {
+    "id": "shanghai-skyline",
+    "webFilename": "shanghai-skyline-bw.jpg",
+    "title": "城市的留白",
+    "alt": "黑白影调中的上海城市天际线",
+    "location": "上海",
+    "theme": "city",
+    "uploadedAt": "2026-08-13T00:00:00+08:00"
+  },
+  "R0001118.JPG": {
+    "id": "shanghai-street",
+    "webFilename": "shanghai-street-bw.jpg",
+    "title": "人群经过",
+    "alt": "黑白街道上经过的人群与建筑",
+    "location": "上海",
+    "theme": "city",
+    "uploadedAt": "2026-08-13T00:00:00+08:00"
+  },
+  "R0001518.JPG": {
+    "id": "ferris-wheel",
+    "webFilename": "ferris-wheel.jpg",
+    "title": "向上看",
+    "alt": "仰视摩天轮和玻璃建筑的几何结构",
+    "location": "未标记",
+    "theme": "city",
+    "uploadedAt": "2026-08-13T00:00:00+08:00"
+  },
+  "R0002659-2.jpg": {
+    "id": "shadow-wall",
+    "webFilename": "shadow-wall.jpg",
+    "title": "光落在墙上",
+    "alt": "人物经过墙面，留下重叠的影子",
+    "location": "未标记",
+    "theme": "city",
+    "uploadedAt": "2026-08-13T00:00:00+08:00"
+  },
+  "R0002672-2.jpg": {
+    "id": "bund-crowd",
+    "webFilename": "bund-crowd.jpg",
+    "title": "岸边的人",
+    "alt": "人们在城市观景处等待日落",
+    "location": "上海",
+    "theme": "city",
+    "uploadedAt": "2026-08-13T00:00:00+08:00"
+  },
+  "d6e2578a00623389faeca53e15d72dd6.jpg": {
+    "id": "bridge-sunset",
+    "webFilename": "bridge-sunset.jpg",
+    "title": "桥与日落",
+    "alt": "夕阳下的桥梁和水面",
+    "location": "未标记",
+    "theme": "nature",
+    "year": "2026",
+    "uploadedAt": "2026-08-13T00:00:00+08:00"
+  },
+  "fxn-2024-01-13-164914.015.jpg": {
+    "id": "riverside-buildings",
+    "webFilename": "riverside-buildings.jpg",
+    "title": "河岸的另一侧",
+    "alt": "河岸、住宅楼与晚霞组成的城市一角",
+    "location": "未标记",
+    "theme": "nature",
+    "uploadedAt": "2026-08-13T00:00:00+08:00"
+  },
+  "fxn-2024-05-29-174551.724.jpg": {
+    "id": "coastline",
+    "webFilename": "coastline.jpg",
+    "title": "潮汐线",
+    "alt": "潮水退去后露出的海岸礁石",
+    "location": "未标记",
+    "theme": "nature",
+    "uploadedAt": "2026-08-13T00:00:00+08:00"
+  }
+}

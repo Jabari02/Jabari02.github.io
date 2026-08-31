@@ -1,0 +1,29 @@
+# Dependencies and build output
+node_modules/
+dist/
+.astro/
+.cache/
+.wrangler/
+.vinext/
+.codebase-memory/
+*.tsbuildinfo
+
+# Local and production secrets
+.env
+.env.*
+!.env.example
+
+# Local tooling
+.DS_Store
+*.log
+coverage/
+playwright-report/
+test-results/
+
+# Large original assets are backed up separately and not committed by default
+assets/originals/*
+!assets/originals/README.md
+
+# Generated web assets can be rebuilt from originals
+assets/web/*
+!assets/web/README.md
