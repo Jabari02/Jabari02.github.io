@@ -1,10 +1,23 @@
 import vinext from "vinext";
 import { defineConfig } from "vite";
-import hostingConfig from "./.openai/hosting.json";
 import { sites } from "./build/sites-vite-plugin";
+import { existsSync, readFileSync } from "node:fs";
+import { resolve } from "node:path";
 
 const SITE_CREATOR_PLACEHOLDER_DATABASE_ID =
   "00000000-0000-4000-8000-000000000000";
+
+type HostingConfig = {
+  d1?: string;
+  r2?: string;
+};
+
+// The Sites hosting manifest is available in local/Cloudflare environments,
+// but intentionally is not published with the static GitHub Pages source.
+const hostingConfigPath = resolve(process.cwd(), ".openai", "hosting.json");
+const hostingConfig: HostingConfig = existsSync(hostingConfigPath)
+  ? JSON.parse(readFileSync(hostingConfigPath, "utf8"))
+  : {};
 
 const { d1, r2 } = hostingConfig;
 
@@ -35,7 +48,7 @@ const localBindingConfig = {
 
 export default defineConfig(async () => {
   // Keep Wrangler and Miniflare state project-local. These are non-secret tool
-  // settings; application environment belongs in ignored `.env*` files.
+  // settings; application environment belongs in ignored .env* files.
   process.env.WRANGLER_WRITE_LOGS ??= "false";
   process.env.WRANGLER_LOG_PATH ??= ".wrangler/logs";
   process.env.MINIFLARE_REGISTRY_PATH ??= ".wrangler/registry";
